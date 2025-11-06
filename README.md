@@ -31,3 +31,6 @@ This is a RAG (Retrieval-Augmented Generation) system that enables question-answ
   python query_data.py "your question here"
 
   The system retrieves relevant context from your documents and generates accurate answers based only on that context, reducing hallucinations.
+
+!NOTE: url = "http://101.99.3.94:8080/embed" là embedding cả document
+       url = "http://101.99.3.94:8080/embed_all" là embedding từng tokens
